@@ -1,4 +1,6 @@
-$ cat merge_branches
+$ git checkout main
+Already on 'main'
+$ git merge bug-fix-typo
 Updating ad95b0a..7438af2
 Fast-forward
  README.md | 1 +
